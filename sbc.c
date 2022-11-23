@@ -13,6 +13,7 @@ unsigned char digitalBuffer[2];
 const char inicio[12] = "iniciando...";
 const char erroini[21] = "erro na inicianizacao";
 const char strAnalogValue[26] = "Valor do sensor analogico ";
+const char strDigitalValue[24]  = "Valor do sensor digital ";
 char analogValue[3];
 cha digitalValue[3];
 char string[30];
@@ -63,9 +64,17 @@ void main(){
         read(fd,analogBuffer,2);
         print(strAnalogValue,26);
         sprinf(analogValue,"%d",analogBuffer[1]);
-        print(analogValue,2);
+        print(analogValue,3);
+        usleep(5000);
         clear();
-        usleep(3000);
+        write(fd,digitalCmd,2);
+        usleep(10);
+        read(fd,digitalBuffer,2);
+        print(strDigitalValue,26);
+        sprinf(digitalValue,"%d",digitalBuffer[1]);
+        print(digitalValue,3);
+        usleep(5000);
+        clear();
     }
 }
 
