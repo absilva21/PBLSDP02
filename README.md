@@ -5,9 +5,9 @@ Estação de medição de sensores
 
 Feito com Raspberry e NodeMcu
 
-**Por enquanto somente a parte do NodeMcu está funcionando
+**Por enquanto somente a parte do NodeMcu está funcionando**
 
-**Para testar o NodeMcu basta usar a o arquivo PBLSD.ino na IDE arduino descarregar na placa e inserir os comandos no monitor serial
+**Para testar o NodeMcu basta usar a o arquivo PBLSD.ino na IDE arduino descarregar na placa e inserir os comandos no monitor serial**
  
  |Código |Descrição do comando                        |
  | ---   | ---                                         |
