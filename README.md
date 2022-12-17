@@ -17,5 +17,5 @@ Para testar o NodeMcu basta usar a o arquivo PBLSD.ino na IDE arduino descarrega
  |0x06   |Acendimento do led da NodeMCU                |
 
  
- Os comando como será adicionado endereço de sensores é necessário enviar dois bytes o primero o comando, o segundo
+ Como será adicionado endereço de sensores é necessário enviar dois bytes para se obter resposta, o primero é o comando, o segundo
  pode ser quaquer um.
