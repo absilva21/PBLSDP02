@@ -10,7 +10,7 @@ Por enquanto somente a parte do NodeMcu está funcionando
 Para testar o NodeMcu basta usar a o arquivo PBLSD.ino na IDE arduino descarregar na placa e inserir os comandos no monitor serial
  
  |Código | Descrição do comando                        |
- |       |                                             |
+ | ---   | ---                                         |
  |0x03   |Solicita a situação atual do NodeMCU         |
  |0x04   |Solicita o valor da entrada analógica        |
  |0x05   |Solicita o valor de uma das entradas digitais|
